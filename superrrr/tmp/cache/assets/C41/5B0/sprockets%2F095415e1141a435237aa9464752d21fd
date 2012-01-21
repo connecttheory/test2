@@ -1,0 +1,404 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{	"_version"%a0bbb2052fd52c50bcb409ffacbc568c"digest"%8e4a42f677b276396b5fd2e3baa368c0"lengthi´"source"´@charset "utf-8";
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+/* CSS Document */
+/*
+Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 0.11.3
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+q:before, q:after {
+  content: ''; }
+
+/*custom reset*/
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+img {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.clear {
+  clear: both;
+  height: 0;
+  width: 0; }
+
+p {
+  letter-spacing: normal;
+  line-height: 1.2em; }
+
+br.clear {
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: -1px 0 0 0; }
+
+/* Use this br class to clear your floated columns */
+.fright {
+  float: right; }
+
+.fleft {
+  float: left; }
+
+.center {
+  display: block;
+  margin: auto; }
+
+.twtr-widget {
+  width: 250px;
+  float: right; }
+
+.fnotice_js {
+  float: left; }
+
+a {
+  color: #55B5E5; }
+
+body {
+  background: #eeeeee;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: #333333; }
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Helvetica;
+  color: #333333;
+  padding: 10px 0 0 0;
+  min-height: 550px; }
+
+/***********************header style****************************/
+.mini-nav {
+  padding: 15px 0 0 0; }
+
+.small {
+  font-size: .8em; }
+
+div#header {
+  background: #ffffff;
+  width: 100%; }
+  div#header .header-wrap {
+    width: 960px;
+    margin: 0 auto; }
+
+.main-nav {
+  list-style: none;
+  margin: 0 0 20px 0; }
+  .main-nav li {
+    display: inline;
+    float: left;
+    margin: 0 25px 0 0;
+    font-size: 13px; }
+
+.main-nav li a {
+  color: #333333;
+  font-size: 13px; }
+
+.logout {
+  margin: 10px 0 0 0;
+  text-align: right;
+  float: right; }
+
+/***********************end header style****************************/
+/***********************body style****************************/
+#container h1 {
+  color: #888;
+  font: normal normal normal 18px/40px Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0 #ffffff; }
+
+.info-wrap {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 0 30px 0;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.project {
+  width: 800px;
+  margin: 0 auto; }
+
+.project-thumb {
+  width: 240px;
+  float: left;
+  margin: 6px; }
+
+.curve {
+  border: 5px solid #EEEEEE;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 240px;
+  float: left;
+  margin: 0 30px 15px 0;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.curve:hover {
+  border: 5px solid #55B5E5; }
+  .curve:hover .project-cap {
+    background: #55B5E5; }
+
+.project-cap {
+  text-align: center;
+  background: #EEEEEE;
+  padding: 4px 0 1px 0; }
+  .project-cap a {
+    color: #666666;
+    font-size: 13px; }
+
+.form_proj {
+  padding: 12px 12px 18px 74px;
+  background: #F6F6F6;
+  margin: 0 0 20px 0;
+  position: relative;
+  text-align: left; }
+
+.form_proj:hover {
+  background: #DCEEF7; }
+
+.form_proj_image {
+  padding: 12px 12px 18px 74px;
+  background: #F6F6F6;
+  margin: 0 0 20px 0;
+  position: relative;
+  text-align: left; }
+
+.form_proj_image:hover {
+  background: #DCEEF7; }
+
+div.edit-btn {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background: #55B5E5;
+  left: 10px;
+  top: 18px;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff; }
+
+.tiny {
+  font-size: 11px; }
+
+.text {
+  font-size: 27px; }
+
+.description .text {
+  font-size: 13px; }
+
+input.big {
+  border: 1px solid #666666;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 27px;
+  /*1.7em*/
+  padding: 2px;
+  width: 80%; }
+
+input.halfbig {
+  border: 1px solid #666666;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 27px;
+  /*1.7em*/
+  padding: 2px;
+  width: 30%; }
+
+/**************** sections ***************/
+.section h1 {
+  color: #888;
+  font: normal normal normal 18px/40px Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0 #ffffff; }
+
+p.sec-desc {
+  color: #777777;
+  font: normal normal normal 12px/17px Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0 #ffffff; }
+
+/***********************end body style****************************/
+/***buttons****/
+.button {
+  margin: 15px 10px 0 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.black-box {
+  background: #000;
+  width: 104px;
+  height: 74px; }
+
+.white-box {
+  background: #eeeeee;
+  width: 104px;
+  height: 74px; }
+
+.option-set {
+  height: 100px; }
+
+.option-set .opt-text {
+  font: normal normal normal 14px/100px Helvetica;
+  color: #888888;
+  height: 100px; }
+
+.option-set label {
+  width: 160px;
+  text-align: right;
+  margin: 0 20px 0 0; }
+
+.dark {
+  background: #F6F6F6;
+  border: 1px solid #CECECE;
+  padding: 0;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+
+.dark .odd {
+  background: #E6E6E6; }
+
+.simp-curve {
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+#main-footer {
+  width: 100%;
+  background: #1D1D1D;
+  color: #ffffff; }
+
+#footer-wrap {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/*basic form*/
+.form {
+  background: #F9F9F9;
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 10px; }
+
+.form span {
+  background: none repeat scroll 0 0 transparent;
+  display: block;
+  margin: 15px auto; }
+
+.form span label {
+  color: #888888;
+  display: block;
+  font-size: 18px;
+  padding-bottom: 6px; }
+
+.form span .textinput {
+  border: 1px solid #CCCCCC;
+  font-size: 18px;
+  padding: 4px;
+  width: 90%; }
+
+.form span .rme {
+  display: inline;
+  margin: 0 0 0 10px; }
+
+.signup-link {
+  background: #FFBF00; }
+
+.button {
+  padding: 5px 10px;
+  color: #000000;
+  background: #FFBF00;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  font: normal normal normal 22px/normal Helvetica; }
+
+.button:hover {
+  background: #BFE4FC; }
+:@created_atf1325020441.190284 -ù:@expires_in0
